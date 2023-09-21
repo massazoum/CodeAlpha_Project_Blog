@@ -24,23 +24,20 @@ window.addEventListener('load', function(e) {
 
 const cardData = [
     {   header:'Precision medicine',
-        name: 'Precision medicine',
+        photo: 'https://th.bing.com/th/id/OIP.Ma1Fi6F9iwvHpOZJTGcakAAAAA?pid=ImgDet&w=454&h=400&rs=1',
         description: 'AI is used to produce personalized treatment plans for patients that take into account such factors as their medical history, environmental factors, lifestyles, and genetic makeup. ',
-        icons: ['room', 'contact_mail', 'person_add'],
-        loveMessage: 'Created With Love From the World !',
+        img2: 'https://th.bing.com/th/id/OIP.vzZ0dRnc2bUmmkPOXsXDvQHaEK?pid=ImgDet&rs=1',
     },
-    {   header:'Predict diseases and illness:',
-        name: 'Kouloughli Zaki',
+    {   header:'Predict diseases and illness',
+        photo: 'https://th.bing.com/th/id/OIP.vFnMtRXjmeFQ3ErGJn_QtQHaHa?pid=ImgDet&w=800&h=800&rs=1',
         description: 'AI is used to produce personalized treatment plans for patients that take into account such factors as their medical history, environmental factors, lifestyles, and genetic makeup. ',
-        icons: ['room', 'contact_mail', 'person_add'],
-        loveMessage: 'Created With Love From the World !',
+        img2: 'https://th.bing.com/th/id/OIP.L9v6EWqhzLPraAwQfSapcgAAAA?pid=ImgDet&rs=1',
     },
     {
-        header:'Interpret tests and diagnose diseases:',
-        name: 'Kouloughli Zaki',
+        header:'Interpret tests and diagnose diseases',
+        photo: 'https://th.bing.com/th/id/OIP.FBlzHZEPbG_ZUkyu6NIY9QHaEK?pid=ImgDet&rs=1',
         description: ' ML models can be trained using common medical scans, like MRIs or X-rays, to interpret and diagnose such conditions as cancerous lesions.',
-        icons: ['room', 'contact_mail', 'person_add'],
-        loveMessage: 'Created With Love From the World !',
+        img2: 'https://th.bing.com/th/id/OIP.v0O034YVg66hkRkr2gVL1AHaEj?pid=ImgDet&rs=1',
     }
 ];
 
@@ -53,19 +50,14 @@ cardData.forEach(data=> {
     front.classList.add('front');
     front.innerHTML = `
         <header>${data.header}</header>
-        <h3>${data.name}</h3>
+        <div class="headerimg"><img src="${data.photo}" alt=""></div>
         <p>${data.description}</p>
-        <button type="submit" name="aterial"><i class="material-icons">More</i></button>
     `;
 
     const back = document.createElement('div');
     back.classList.add('back');
     back.innerHTML = `
-        <header>Find Me On</header>
-        <ul>
-            ${data.icons.map(icon => `<li><a href="#"><i class="material-icons">${icon}</i></a></li>`).join('')}
-        </ul>
-        <p>${data.loveMessage}</p>
+        <div class="headerimg1"><img src="${data.img2}" alt=""></div>
     `;
 
     card.appendChild(front);

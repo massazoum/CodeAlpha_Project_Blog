@@ -1,6 +1,5 @@
 const cardContainer = document.getElementById('cardContainer');
 
-
 let burger = document.getElementById('burger'),
 	 nav    = document.getElementById('main-nav'),
 	 slowmo = document.getElementById('slowmo');
@@ -13,14 +12,12 @@ burger.addEventListener('click', function(e){
 let clickEvent = new Event('click');
 
 window.addEventListener('load', function(e) {
-	// slowmo.dispatchEvent(clickEvent);
 	burger.dispatchEvent(clickEvent);
 	
 	setTimeout(function(){
 		burger.dispatchEvent(clickEvent);
 		
 		setTimeout(function(){
-			// slowmo.dispatchEvent(clickEvent);
 		}, 3500);
 	}, 5500);
 });

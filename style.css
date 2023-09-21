@@ -154,31 +154,33 @@
 }
 
 .main_2 {
-	margin-top: 10px;
+  position: relative;
+  margin-top: 10px;
+  height: auto;
 }
 
 .mainHome {
-	display: flex;
-	flex-direction: row;
-	width: 100vw;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
 }
 
 .homeText {
-	margin-left: 7vw;
-	width: 60vw;
-	margin-top: 50px;
+  margin-left: 7vw;
+  width: 60vw;
+  margin-top: 50px;
 }
 
 .homeText h1 {
-	color: white;
-	font-family: 'robocup', sans-serif;
-	font-weight: bolder;
+  color: white;
+  font-family: 'robocup', sans-serif;
+  font-weight: bolder;
 }
 
 .homeText p {
-	color: white;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: x-large;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
 }
 
 .Applications {
@@ -186,24 +188,23 @@
 }
 
 .ApplicationsInfo {
-	height: auto;
-	width: 90vw;
-	padding: 30px;
-	margin-left: 5vw;
-	border-radius: 20px;
-border: #0c2233 1px solid ;
-	color:  #0c2233;
-	background-color: #fff;
+  height: auto;
+  width: 90vw;
+  padding: 30px;
+  margin-left: 5vw;
+  border-radius: 20px;
+  border: #0c2233 1px solid;
+  color: #0c2233;
+  background-color: #fff;
 }
 
-
 .main_1 {
-	background-image: url('./images/main1.png');
-	height: auto;
+  background-image: url('./images/main1.png');
+  height: auto;
 }
 
 .main_1 h1 {
-	text-align: center;
+  text-align: center;
 }
 
 @media (min-width: 800px) {
@@ -213,5 +214,10 @@ border: #0c2233 1px solid ;
 
   .header-navigation button {
     display: none;
+  }
+
+  .main_2 {
+    display: flex;
+    flex-direction: column;
   }
 }

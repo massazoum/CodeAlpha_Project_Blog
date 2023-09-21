@@ -57,7 +57,7 @@
   text-align: center;
   line-height: 36px;
   vertical-align: middle;
-  background:#0c2233;
+  background: #0c2233;
   color: rgb(255, 255, 255);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
@@ -154,13 +154,13 @@
 .CenterCard {
   display: flex;
   justify-content: center;
- height: 100vh;
+  height: 100vh;
 }
 
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  height: 80vh;
+  height: auto;
 }
 
 .get-in-touch {
@@ -182,7 +182,7 @@
   line-height: 48px;
   padding-bottom: 48px;
   color: #0c2233;
-  background: #132743
+  background: #132743;
   background: -moz-linear-gradient(left, #f4524d  0%, #5543ca 100%) !important;
   background: -webkit-linear-gradient(left, #f4524d  0%, #5543ca 100%) !important;
   background: linear-gradient(to right, #f4524d  0%, #5543ca  100%) !important;

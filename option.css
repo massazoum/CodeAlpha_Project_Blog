@@ -5,14 +5,14 @@
 }
 
 .headerimg img {
-width: 100%;
-height: 250px;
+  width: 100%;
+  height: 250px;
 }
 
 .headerimg1 img {
   width: 350px;
   height: 400px;
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 .father {
@@ -170,7 +170,7 @@ margin-top: 50px;
 
 .cardContainer {
   display: flex;
- flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .get-in-touch {
@@ -255,6 +255,7 @@ margin-top: 50px;
   width: 200px;
   cursor: pointer;
 }
+
 @media (max-width: 768px) {
 
 }

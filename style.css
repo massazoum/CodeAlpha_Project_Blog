@@ -40,7 +40,6 @@
     calc(
       var(--header-height-difference) * -1
     );
-
   display: flex;
   align-items: center;
   background-color: var(--header-bg);

@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
   color: #000;
-  font-family: 'robocup', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.04em;
 }
 
 .headerimg img {
@@ -82,7 +85,7 @@
 }
 
 .father .front h3 {
-  font-family: arial;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   text-transform: uppercase;
   word-spacing: 0.4em;
@@ -156,12 +159,6 @@
   transform: rotateY(180deg);
 }
 
-* {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.04em;
-}
-
 .CenterCard {
   display: flex;
   justify-content: center;
@@ -175,7 +172,8 @@
 
 .get-in-touch {
   width: 95vw;
-  padding: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin: 50px auto;
   position: relative;
   background-color: #f9f9f9;
@@ -254,8 +252,4 @@
   border: none;
   width: 200px;
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-
 }

@@ -110,12 +110,6 @@
     display: none;
   }
 
-  .container {
-    display: block;
-    z-index: 2000;
-    padding-right: 20px;
-  }
-
   .main-nav {
     position: absolute;
     top: 0;
@@ -169,11 +163,6 @@
     transform: skew(16deg);
   }
 
-  .main-nav a {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-
   .main-nav.is-open a {
     opacity: 1;
     transform: translateY(0);
@@ -212,6 +201,8 @@
     font-size: 1.4em;
     text-decoration: none;
     font-weight: bold;
+    opacity: 0;
+    transform: translateY(-10px);
   }
 
   .open-main-nav {
@@ -292,6 +283,9 @@
   }
 
   .container {
+    display: block;
+    z-index: 2000;
+    padding-right: 20px;
     position: absolute;
     top: 0;
     right: 0;
@@ -458,7 +452,6 @@
     font-family: sans-serif;
     padding-top: 30px;
   }
-
 
   .mainHome {
     display: flex;

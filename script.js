@@ -30,7 +30,7 @@ const cardData = [
     },
     {   header:'Predict diseases and illness',
         photo: 'https://th.bing.com/th/id/OIP.vFnMtRXjmeFQ3ErGJn_QtQHaHa?pid=ImgDet&w=800&h=800&rs=1',
-        description: 'AI is used to produce personalized treatment plans for patients that take into account such factors as their medical history, environmental factors, lifestyles, and genetic makeup. ',
+        description: 'Advances in emerging computer-based technologies are overgrowing. Digital healthcare offers numerous opportunities to reduce human error, improve clinical outcomes, and track data over time. ',
         img2: 'https://th.bing.com/th/id/OIP.L9v6EWqhzLPraAwQfSapcgAAAA?pid=ImgDet&rs=1',
     },
     {

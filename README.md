@@ -6,7 +6,7 @@
    
   <br/>
 
-  <h3><b> CodeAlpha_Project_LandingP</b></h3>
+  <h3><b> CodeAlpha_Project_Blog</b></h3>
 
 </div>
 
@@ -34,9 +34,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖  CodeAlpha_Project_LandingP <a name="about-project"></a>
-This pull is created to add javascript to my portfolio and make interaction on my menu bars and times 
-This PR updates the responsive desktop design for our website to improve its usability on larger screens. The goal of this update is to provide a better user experience for desktop users and ensure that our website looks great on all devices
-
+Project_blog
 ## 🛠 Built With <a name="built-with"></a>
 <ul>
   <li>HTML5</li> 
@@ -89,7 +87,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
   - cd my-folder
-  - git clone https://github.com/massazoum/PRT.git
+  - git clone https://github.com/massazoum/CodeAlpha_Project_GBackground.git
   
   - git clone
   - npm install or npm init -y
@@ -101,7 +99,7 @@ This website has been completed and deployed
 ### Deployment
 
   The changes will be deployed to the website through our standard deployment process.
-- [PortFolio](https://massazoum.github.io/PRT)
+- [Blog](https://massazoum.github.io/CodeAlpha_Project_Blog/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
